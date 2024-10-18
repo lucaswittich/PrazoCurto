@@ -1,0 +1,106 @@
+/* CSS Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    font-family: sans-serif;
+    
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.container-itens{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFFF;
+    background: linear-gradient(60deg, #a4e29e, #64b15d);
+}
+
+.section-img{
+    width: 20vw;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    background-color: #FFFF;
+    border-radius: 10px  0px 0px 10px;
+    box-shadow: 5px 5px 10px #707070;
+}
+
+.section-img-container img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.section-img-container h2{
+    font-family: "Inter", sans-serif;
+    font-size: 1vw;
+    margin-top: 2vw;
+}
+
+.section-login{
+    width: 20vw;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    border-radius: 0px  10px 10px 0px;
+    box-shadow: 5px 5px 10px #707070;
+}
+.section-login-title{
+    width: 95%;
+    height: 15%;
+    font-family: "Inter", sans-serif;
+    font-weight: 800;
+    font-size: 30px;
+    color: #14AE5C;
+}
+
+.section-login-form {
+    width: 95%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+}
+
+.section-login-form-itens{
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    gap: 45px;
+}
+
+.section-login-form-itens input{
+    width: 90%;
+    height: 10%;
+    border: none;
+    border-bottom: 1px solid #eeeeee;
+}
+
+.section-login-form-itens input:focus{
+    outline: none;
+}
+
+.btn-login button{
+    width: 300px;
+    height: 35px;
+    margin-top: 1%;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    background-color: #14AE5C;
+}
